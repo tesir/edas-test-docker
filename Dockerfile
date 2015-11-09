@@ -35,7 +35,6 @@ ENV JAVA_HOME /opt/jdk1.8.0_65
 ENV PATH $JAVA_HOME/bin:$PATH
 
 VOLUME ["/workspace"]
-ENTRYPOINT /usr/local/taobao-tomcat-7.0.59/bin/startup.sh
 
 EXPOSE 22
 EXPOSE 8080
