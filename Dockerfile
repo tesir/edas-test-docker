@@ -36,5 +36,7 @@ ENV PATH $JAVA_HOME/bin:$PATH
 
 VOLUME ["/workspace"]
 
+ENTRYPOINT /usr/local/taobao-tomcat-7.0.59/bin/startup.sh && /usr/sbin/sshd -D
+
 EXPOSE 22
 EXPOSE 8080
